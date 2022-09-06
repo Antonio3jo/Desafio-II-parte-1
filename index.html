@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ahorcado</title>
+</head>
+<body>
+    <div class="hombre-ahorcado">
+        <img id = "hombre" alt="hombre-ahorcado" src="images/imagen0.png">
+    </div>
+    
+    <div class="adivinado">
+        <span class="letra adivinada">A</span>
+        <span class="letra adivinada">L</span>
+        <span class="letra adivinada"></span>
+        <span class="letra adivinada"> </span>
+        <span class="letra adivinada">A</span>
+
+    </div>
+    
+
+    <div class="errado">
+        <span class="letra errada">B</span>
+        <span class="letra errada">J</span>
+        <span class="letra errada">K</span>
+        <span class="letra errada">C</span>
+        
+    </div>
+    <!-- para que no se envie el formulario se escribe ese action -->
+    <form class="botones" action="javascript:void(0)">
+        <input class="btn-azul" type="button" value="Nuevo Juego">
+        <input type="button" value="Abandonar">
+    </form>
+
+    <footer>
+   
+        <p class="firma">&copy; Antonio3jo 2022 - Buenos Aires. <br> Alura Latam</p> 
+        
+        <div >
+            <img src="images/letraA.png" width="8%" alt="" class="logoAntonio" >
+        </div>
+    </footer>
+
+
+   <script src="app.js"></script> 
+</body>
+</html>
